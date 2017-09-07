@@ -1,0 +1,12 @@
+Please run these commands
+
+pip install googlemaps
+pip install polyline
+pip install gmplot
+
+The folder contains files for route from goa to kerala for asset_ids [u'151', u'571850', u'144', u'149', u'245', u'176', u'510']
+
+The folder contains another zip telme-master which has route from goa to mumbai for asset_ids [u'146', u'150', u'571850', u'152', u'142', u'143', u'147', u'151', u'144', u'148', u'149', u'245', u'518', u'180', u'145', u'179', u'176', u'510', u'167']
+run script with
+'python Level2.py 15.505601 73.833911 11.265776 75.766602'
+
