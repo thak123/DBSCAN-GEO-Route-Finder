@@ -1,4 +1,3 @@
-
 # coding: utf-8
 
 # In[1]:
@@ -357,8 +356,8 @@ for first,second in zip(path, path[1:]):
         total_time +=return_avg_time(first,second)
         
 if is_processing_required:
-    external+=decode_distance
-    path_distance+=decode_distance
+    external+=decoded_distance
+    path_distance+=decoded_distance
     total_time+=(decoded_duration/3600)
     
 if debug_mode: 
@@ -450,7 +449,4 @@ gmap.draw("mymap.html")
 
 
 # In[ ]:
-
-
-
 
